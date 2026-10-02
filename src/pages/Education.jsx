@@ -1,7 +1,7 @@
 function Education() {
   return (
     <div>
-      <h1>Welcome message goes here</h1>
+      <h1>My Education</h1>
     </div>
   );
 }
