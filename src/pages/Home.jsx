@@ -7,6 +7,13 @@ function Home() {
   const welcomeMessage = `Welcome to ${siteOwner}'s portfolio`;
   const missionStatement =
     'By studying software engenieering, I am honing my focus and working towards a career in the cybersecurity industry. I care deeply about the people I call loved ones, and becoming somebody I can be proud of.';
+  
+  // Short highlights shown under the button on the Home page
+  const highlights = [
+  { title: 'Student Developer', text: 'Studying software engineering at Centennial College, building skills in React, Java and web applications' },
+  { title: 'Soccer Coach', text: 'Coaching players on skills and teamwork, which builds my leadership and communication skills.' },
+  { title: 'Always Learning', text: 'Balancing work and school while taking on new projects and picking up new tools.' },
+  ];
 
   return (
     <section className="home">
@@ -24,6 +31,15 @@ function Home() {
       <Link to="/about">
         <button type="button">Learn More About Me</button>
       </Link>
+      {/* Highlights row */}
+      <div className="highlights">
+        {highlights.map((item) => (
+          <article key={item.title}>
+            <h3>{item.title}</h3>
+            <p>{item.text}</p>
+          </article>
+        ))}
+      </div>
     </section>
   );
 }
