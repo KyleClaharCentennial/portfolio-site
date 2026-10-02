@@ -4,7 +4,7 @@ function Education() {
   const education = [
     {
       school: 'Pierre Elliott Trudeau High School',
-      credential: 'High School Diploma – OSSD',
+      credential: 'High School Diploma - French Certificate – OSSD',
       years: '2019-2022',
     },
     {

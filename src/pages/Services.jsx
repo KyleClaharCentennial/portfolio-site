@@ -4,7 +4,7 @@ function Services() {
   const services = [
     { name: 'Web Development', description: 'I offer professional web development services that design and build custom websites and web applications.', image: '/service1.png' },
     { name: 'Graphic Design', description: 'I offer professional graphic design services that create custom visual content tailored to enhance your brand identity and communicate your message effectively to your target audience.', image: '/service2.png' },
-    { name: 'Soccer Coaching & Training', description: '	Coached and supervised groups of children aged 5–13, delivering soccer instruction while maintaining a safe and engaging camp environment in accordance with league safety regulations.', image: '/service3.png' },
+    { name: 'Soccer Coaching & Training', description: 'I offer coaching and supervision for groups of children aged 5–13, delivering soccer instruction while maintaining a safe and engaging camp environment.', image: '/service3.png' },
   ];
 
   return (
