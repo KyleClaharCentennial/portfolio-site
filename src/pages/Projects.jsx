@@ -7,7 +7,7 @@ function Projects() {
       title: 'York University Continuing Education Form',
       image: '/project1.png',
       role: 'Sole Developer',
-      outcome: 'I built a websited designed to be an advertisement for a toy, with price listings comparing each product. It was successful and ran smoothly.',
+      outcome: 'I built a website designed to be a continuing education form for post-secondary students who had completed their term. It was modeled after the colour scheme of York University. It was successful and ran smoothly.',
     },
     {
       title: 'GAN Rubiks Cube Advertisement',
@@ -19,7 +19,7 @@ function Projects() {
       title: 'Ethics in Artificial Intelligence',
       image: '/project3.png',
       role: 'Sole Developer',
-      outcome: 'I built a website designed to be a continuing education form for post-secondary students who had completed their term. It was modeled after the colour scheme of York University. It was successful and ran smoothly.',
+      outcome: 'I built a website designed to be an article on ethics in the field of Artificial Intelligence. I had the options to chose whatever topic I wanted. I chose that one because it felt most relevant to my field of study.',
     },
   ];
 
